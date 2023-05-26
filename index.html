@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS CENTER</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+
+<style>
+    /*CSS RESET*/
+    body {
+        
+        
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.jpg');
+        
+    }
+    .left{
+        display: inline-block;
+        position:absolute;
+        left:34px;
+        top:20px;
+        /*border: 2px solid red;*/
+
+    }
+    .left img{
+        width:120px;
+    }
+    .left div{
+        text-align: center;
+        color: whitesmoke;
+    }
+    .mid{
+        display: block;
+        width: 36%;
+        margin:20px auto;
+        
+        /*border: 2px solid blue;*/
+
+
+    }
+    .right{
+        position:absolute;
+        right:34px;
+        top:20px;
+        display: inline-block;
+        /*border: 2px solid black;*/
+
+
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        
+        display:inline-block;
+    }
+    .navbar li a{
+        color: whitesmoke ;
+        text-decoration: none;
+        padding: 24px 14px;
+        font-size: 20px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color:blueviolet;
+    }
+    .btn{
+        margin:0px 9px;
+        padding: 3px 13px;
+        border: 2px solid black;
+        border-radius:8px ;
+        cursor:pointer;
+        
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        border: 2px solid grey;
+        margin:150px 170px;
+        padding: 75px 75px;
+        width:33%;
+        border-radius: 28px;
+        color:whitesmoke;
+       
+
+    }
+    
+    #text{
+        color: white;
+        font-family: Georgia;
+    }
+    .form-group input{
+        text-align: center;
+        display :block;
+        width:34px;
+        padding:6px;
+        border:2px solid grey;
+        margin: 3px auto;
+    }
+</style>
+<body>
+    <header class ="header">
+        <!--left box for logo-->
+    <div class="left">
+<img src="logo.png"alt="">
+<div>FITNESS CLUB</div>
+       
+    
+        
+    </div>
+            
+    
+    <div>
+                <!--mid box for navigation-->
+             
+       <div class="mid">
+        <ul class="navbar">
+            <li><a herf="#" class ="active">Home</a></li>
+            <li><a herf="#">AboutUs</a></li>  
+            <li><a href="c.html">Contact us</a></li>
+            
+            
+            
+        </ul>
+            </div>
+            <div>
+                <!--right box for buttons-->
+                <div class="right">
+                    <a href="signup.html">
+                        <input type="button" class="btn" value="Sign-Up" style="background-color: white;
+                        color: black;
+                        border: 2px solid #250312;"
+                    </a>
+                    <a href="Login_Page.html">
+                        <input type="button" class="btn" value="Log-in" style="background-color: white;
+                        color: black;
+                        border: 2px solid #250312;"
+                       
+                    </a>
+                        
+                   
+            </div>
+    </header>
+    <div class="container">
+        <h1> 
+            WELCOME TO FITNESS CLUB
+
+        </h1>
+             <ul>
+                 <li id="text">
+                    TIMMING: 5:00A.M.-7:00A.M./
+                    5:00p.m.-8:00p.m.
+                 </li>
+                 <li id="text">
+                    PERSONAL TRAINER IS AVAILABLE
+                 </li>
+                 <li  id="text">
+                    7 DAYS FREE TRAIL
+                 </li>
+             </ul>
+                 
+                  
+                
+        
+        
+        
+    </div>
+</body>
+</html>
